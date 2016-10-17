@@ -212,6 +212,59 @@ Attempt 1
 
 ----
 
+Attempt 2
+=========
+
+.. image:: attempt_two_words.jpeg
+
+----
+
+Attempt 2
+=========
+
+.. image:: attempt_two_vals.jpeg
+
+----
+
+.. raw:: html
+
+     <iframe width="900" height="500" src="https://www.youtube.com/embed/fh2YK2dduZg?t=10s" frameborder="0" allowfullscreen></iframe>
+
+----
+
+Attempt 3
+=========
+
+.. image:: attempt_three_words.jpeg
+
+----
+
+Attempt 3
+=========
+
+.. image:: attempt_three_vals.jpeg
+
+----
+
+.. raw:: html
+
+    <iframe width="900" height="500" src="https://www.youtube.com/embed/2MmOXRB_z4o" frameborder="0" allowfullscreen></iframe>
+
+----
+
+Attempt 3.5
+===========
+
+.. image:: attempt_threep_vals.jpeg
+
+----
+
+.. raw:: html
+
+    <iframe width="900" height="500" src="https://www.youtube.com/embed/3mnNckROfI4" frameborder="0" allowfullscreen></iframe>
+
+----
+
 Want to know more about....?
 ============================
 
