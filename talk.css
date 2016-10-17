@@ -9,6 +9,14 @@ body {
     font-size: 28px;
 }
 
+#title {
+    text-align: center;
+}
+
+#title > ul > li {
+    list-style: none;
+}
+
 #animation > img {
     margin-left: 75px;
 }
@@ -27,6 +35,14 @@ body {
 
 #queue > img {
     margin-left: 50px;
+}
+
+#more-animation > img {
+    margin-left: 200px;
+}
+
+#ciw >img {
+    margin-left: 200px;
 }
 
 blockquote {

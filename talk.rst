@@ -1,13 +1,17 @@
 :title: Queues, Queueing and Ciw: Superpowers for Animators!
 :css: talk.css
+:data-transition-duration: 0
 
 ----
+
+:id: title
 
 Queues, Queueing and Ciw: Superpowers for Animators!
 ====================================================
 
-- `@alcarney <https://twitter.com/alcarneyorg>`_
-- http://alcarney.org
+- Twitter: `@alcarneyorg <https://twitter.com/alcarneyorg>`_
+- Blog: http://alcarney.org
+- Slides: http://superpowers.alcarney.org
 
 ----
 
@@ -22,6 +26,14 @@ What is Animation?
 
     Animation is creating the illusion of motion, using a rapid
     succession of still images.
+
+.. note::
+
+    - Give examples of animation:
+        + Flipbooks
+        + Stop Motion - Wallace and Gromit
+        + 3D Animation - Shrek, Toy Story
+        + Traditional Animation - Snow White, Lion King.
 
 
 ----
@@ -60,9 +72,10 @@ I'll show you!
 .. note::
 
     - Introduce Blender, model a car quickly.
-    - Show how to animate car - draw parallels to traditional animation
+    - Show how to animate character - draw parallels to traditional animation
     - Now bring up animating a character - time consuming.
-    - How are we going to get around this?
+    - How are we going to get around this - for BACKGROUND animation?
+    - Queues!!
 
 
 ----
@@ -76,10 +89,32 @@ What is a Queue?
    :height: 380px
    :width: 680px
 
+.. note::
+
+    - Explain what a queue is
+    - Where do we find them
+    - How it will help us with our animation
+    - If only there was a way to simulate these queues....
+
 ----
 
-What is Ciw?
-============
+:id: ciw
+
+Cue Ciw!
+========
+
+.. image:: ciw.png
+   :height: 400px
+   :width: 400px
+
+
+.. note::
+
+    - Demo Ciw in Jupyter Notebook
+    - Show the Getting Started with Ciw example from the documentation
+    - Switch to Blender and show how we would animate a single car by hand.
+    - Then introduce the API.
+
 
 ----
 
@@ -94,7 +129,7 @@ Duplicating an Object
     # Pick a random object to duplicate
     obj = bpy.data.groups['Actors'].objects[randint(0, num_actors - 1)]
 
-    # Instacne it
+    # Instance it
     mesh = obj.data
     actor = bpy.data.objects.new(obj.name, mesh)
     actor.location = (0, 0, -10)
@@ -155,3 +190,63 @@ Location Keyframes
       obj.keyframe_insert(data_path='location', frame=time)
 
 ----
+
+Attempt 1
+=========
+
+.. image:: attempt_one_words.jpeg
+
+----
+
+Attempt 1
+=========
+
+.. image:: attempt_onep_words.jpeg
+
+----
+
+Attempt 1
+=========
+
+.. image:: attempt_one_vals.jpeg
+
+----
+
+Want to know more about....?
+============================
+
+----
+
+:id: more-animation
+
+....Animation?
+==============
+
+- Animator's Survival Kit:
+
+.. image:: survival.jpg
+   :height: 400px
+   :width: 300px
+
+----
+
+....Blender?
+============
+
+
+
+----
+
+
+Future Work
+===========
+
+- Integrate Ciw into Blender
+- Make networks composeable
+- More complex animations
+- Extract common code into some sort of library
+
+----
+
+Questions?
+==========
