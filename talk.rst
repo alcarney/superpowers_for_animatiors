@@ -291,6 +291,8 @@ Want to know more about....?
    :height: 400px
    :width: 300px
 
+- An animation `playlist <https://www.youtube.com/playlist?list=PLh6dCjPStiyXN-NKuX9t5-ZhYnDyX_O-7>`_
+
 ----
 
 ....Blender?
