@@ -63,11 +63,6 @@ What is Blender?
     :height: 400px
     :width: 400px
 
-----
-
-
-I'll show you!
-==============
 
 .. note::
 
@@ -76,7 +71,6 @@ I'll show you!
     - Now bring up animating a character - time consuming.
     - How are we going to get around this - for BACKGROUND animation?
     - Queues!!
-
 
 ----
 
@@ -212,6 +206,12 @@ Attempt 1
 
 ----
 
+.. raw:: html
+
+    <iframe width="900" height="500" src="https://www.youtube.com/embed/_7IxZwr7icw" frameborder="0" allowfullscreen></iframe>
+
+----
+
 Attempt 2
 =========
 
@@ -265,6 +265,16 @@ Attempt 3.5
 
 ----
 
+Future Work
+===========
+
+- Integrate Ciw into Blender
+- Make networks composeable
+- More complex animations
+- Extract common code into some sort of library
+
+----
+
 Want to know more about....?
 ============================
 
@@ -286,18 +296,19 @@ Want to know more about....?
 ....Blender?
 ============
 
+- `Blender <https://www.blender.org>`_
+- Blender Open Movies on `Youtube <https://www.youtube.com/playlist?list=PLh6dCjPStiyXX3qXCVxbROtSx1DiPlWf5>`_
+- `BlenderNation <http://www.blendernation.com/>`_
 
 
 ----
 
+....Ciw?
+========
 
-Future Work
-===========
-
-- Integrate Ciw into Blender
-- Make networks composeable
-- More complex animations
-- Extract common code into some sort of library
+- `Documentation <http://ciw.readthedocs.io/en/latest/>`_
+- Ciw on `Github <https://github.com/CiwPython/Ciw>`_
+- Talk at `PyConUK 2016 <https://www.youtube.com/watch?v=0_sIus0mPSM>`_
 
 ----
 
