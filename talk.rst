@@ -12,6 +12,7 @@ Queues, Queueing and Ciw: Superpowers for Animators!
 - Twitter: `@alcarneyorg <https://twitter.com/alcarneyorg>`_
 - Blog: http://alcarney.org
 - Slides: http://superpowers.alcarney.org
+- Mercurial Repository: https://bitbucket.org/alcarney/blenderciw
 
 ----
 
